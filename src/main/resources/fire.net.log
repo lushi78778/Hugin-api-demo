@@ -1,0 +1,109 @@
+Fri Jun  3 19:40:47 2022
+
+
+Moral links:
+
+    Marrying Tampering and Fire
+
+
+Triangulating prime component with 2 members:
+    Report, Leaving
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    Smoke, Fire
+This component is a clique of cost 4
+
+Triangulating prime component with 2 members:
+    Leaving, Alarm
+This component is a clique of cost 4
+
+Triangulating prime component with 3 members:
+    Alarm, Fire, Tampering
+This component is a clique of cost 8
+
+
+Total cost of triangulation for all prime components is 20
+
+
+Elimination sequence:
+
+    Smoke
+    Tampering
+    Fire
+    Report
+    Alarm
+    Leaving
+
+
+Cliques:
+
+Clique 4, 2 members, table size = 4:
+    Leaving, Alarm
+
+Clique 3, 2 members, table size = 4:
+    Leaving, Report
+
+Clique 2, 3 members, table size = 8:
+    Alarm, Fire, Tampering
+
+Clique 1, 2 members, table size = 4:
+    Fire, Smoke
+
+Total clique table size: 20
+
+
+The junction forest:
+
+Creating junction tree with clique 4 as root ...
+
+Cliques 3 and 4 linked, separator has 1 member and table size = 2:
+    Leaving
+
+Cliques 2 and 4 linked, separator has 1 member and table size = 2:
+    Alarm
+
+Cliques 1 and 2 linked, separator has 1 member and table size = 2:
+    Fire
+
+
+Assignment of potentials to cliques:
+
+    Node Report assigned to clique 3
+    Node Leaving assigned to clique 4
+    Node Alarm assigned to clique 2
+    Node Smoke assigned to clique 1
+    Node Fire assigned to clique 1
+    Node Tampering assigned to clique 2
+
+
+Checking conditional probability potentials:
+
+    No errors found
+
+
+Beliefs for chance nodes:
+
+    Report:
+	true       0.0281262
+	false      0.971874
+
+    Leaving:
+	true       0.0244948
+	false      0.975505
+
+    Alarm:
+	true       0.026729
+	false      0.973271
+
+    Smoke:
+	true       0.0189
+	false      0.9811
+
+    Fire:
+	true       0.01
+	false      0.99
+
+    Tampering:
+	true       0.02
+	false      0.98
